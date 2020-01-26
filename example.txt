@@ -1,8 +1,82 @@
-Adding files to respository
-git init
-git status
-touch filename
-git add filename
-git commit -m
-git remote add origin https://github.com/vanitha223/myres.git
-git push --set-upstream origin master
+Sumana@vanitha MINGW64 ~/desktop
+$ git init
+Initialized empty Git repository in C:/Users/Sumana/Desktop/.git/
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+       
+        example.txt
+  
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ touch example.txt
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git add example.txt
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   example.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+       
+       
+
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git commit -m "MOVED"
+[master (root-commit) 2d65684] MOVED
+ 1 file changed, 8 insertions(+)
+ create mode 100644 example.txt
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git remote add origin https://github.com/vanitha223/G_Vanitha_Adding_files_to_repository.git
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git push --set-upstream origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 357 bytes | 178.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/vanitha223/G_Vanitha_Adding_files_to_repository.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Sumana@vanitha MINGW64 ~/desktop (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+       
+        ~$rline Reservation Systems.docx
+        ~WRL1038.tmp
+        "\302\265Torrent.lnk"
+
+nothing added to commit but untracked files present (use "git add" to track)
