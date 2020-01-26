@@ -1,0 +1,8 @@
+Adding files to respository
+git init
+git status
+touch filename
+git add filename
+git commit -m
+git remote add origin https://github.com/vanitha223/myres.git
+git push --set-upstream origin master
